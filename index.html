@@ -72,8 +72,6 @@
           <img src="./assets/images/rock.png" alt="" class="rock" id="rock" onclick="game(this)">
           </div>
 
-          
-
         </div>
 
         <div class="col-md-3"></div>
@@ -82,31 +80,42 @@
 
     </div>
 
+
     <div class="container">
 
       <div class="row">
 
-        <div class="col-2"></div>
+        <div class="col-md-2"></div>
 
-        <div class="col-8">
-          <div id="userBotChoice">
-            
-          </div>
-          <div id="result">
-            
-          </div>
-        </div>
+        <div class="col-md-8 resultContainer">
 
-        <div class="col-2"></div>
+          <div class="contestSection1">
+            <p class="title">YOU PICKED</p>
+            <div class="userChoiceImg">
+              <img id="userChoiceImg" src="./assets/images/Scissors.png" alt="">
+            </div>
+          </div>
         
+        
+          <div class="contestSection2">
+            <div class="finalMessage"><p class="message" id="message">YOU WON!</p></div>
+            <button class="btn btn-success" onclick="replay()">Play Again</button>
+          </div>
+        
+        
+          <div class="contestSection3">
+            <p class="title">BOT PICKED</p>
+            <div class="botChoiceImg">
+              <img id="botChoiceImg" src="./assets/images/Scissors.png" alt="">
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-md-2"></div>
+
       </div>
 
     </div>
-
-    
-
-
-
 
 
 
