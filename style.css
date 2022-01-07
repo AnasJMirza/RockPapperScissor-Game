@@ -11,10 +11,16 @@ body{
     
 }
 
+
+/* Header Start */
+
 .topContainer{
     padding: 15px;
     border: 2px solid #5a6c84;
     border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
     
     position: relative;
     top: 30px;
@@ -27,7 +33,6 @@ body{
     width: 150px;
     height: 100px;
     border-radius: 5px;
-    margin-left: 90px;
     
 }
 
@@ -60,7 +65,50 @@ body{
 
 .triangle{
     background-image: url('./assets/images/bg-triangle.svg');
-    height: 100vh;
+    height: 300px;
+    margin-top: 120px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top 20px;
+}
+
+
+/* Header End */
+
+
+/* Game buttons Start */
+
+.topImg{
+    display: flex;
+    justify-content: space-between;
+
+    
+    position: relative;
+    bottom: 45px;
+}
+
+.paper:hover{
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.scissor:hover{
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+
+.bottomImg{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    /* bottom: 15px; */
+}
+
+.rock:hover{
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;    
 }
