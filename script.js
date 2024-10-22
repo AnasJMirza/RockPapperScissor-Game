@@ -1,6 +1,6 @@
 
 let imgDataBase = {
-    "rock" : "./assets/images/rock.png",
+    "rock" : "./assets/images/Rock.png",
     "paper" : "./assets/images/Paper.png",
     "scissor" : "./assets/images/Scissors.png"
 }
